@@ -1,0 +1,161 @@
+@media (max-width:728px) {
+    .navbar-dark .navbar-toggler {
+        border: 2px solid #fff ;
+
+
+    
+      }
+      
+    .navbar-toggler {
+      font-size:20px;
+      color: #fff;
+      background-color: #A6D141;
+    }
+    .navbar-nav {
+        display: flex;
+        margin:0 auto;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .social{
+        display: none;
+    }
+    .mainSection h1 {
+      margin-top: 150px;
+      font-size: 20px;
+    }
+    .mainSection p{
+        font-size: 16px;
+    }
+    .mainSection{
+      height: 200vh;
+    }
+    .features{
+      margin-top: 50px;
+  }
+  .row1{
+    margin-top:20px;
+  }
+  .mainSection .squareTop {
+    width: 220px;
+    height: 220px;
+   
+}
+.mainSection .squareTop h2 {
+  color: #A6D141;
+  font-size: 16px;
+  
+}
+.mainSection .squareTop p {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+  .features .row .row1{
+      margin-top:20px;
+    }
+    .features h2 {
+      font-size: 16px;
+    }
+    .features p{
+      font-size: 13px;
+    }
+    .features  .row a{
+      font-size: 30px;
+  }
+   .features  .row .circle{ 
+   padding: 8px 20px;
+  
+}
+.filter-button-group button{
+  background: #fff;
+  color:#000;
+  border: 1px solid #A6D141;
+  cursor: pointer;
+  padding: 6px 20px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.servicessSection .row video{
+  border-radius: 20px;
+  width: 250px;
+  height: 150px;
+}
+.holidaySection .overlay {
+
+  padding: 20px 0px;
+
+}
+.holidaySection h2 {
+  font-size: 18px;
+  margin-right: 30px;
+
+}
+.holidaySection p {
+  font-size: 14px;
+  margin-right: 30px;
+
+}
+.holidaySection .row .btn-light {
+  margin-right: 30px;
+
+  width: 150px;
+  height: 35px;
+  line-height: 25px;
+  color: rgb(14, 14, 15);
+  font-size: 14px;
+  border-radius: 30px;
+  border: 0px;
+  outline: none;
+  font-weight: bold;
+}
+.owl-carousel .owl-item img {
+  display:flex;
+  width: 250px;
+  margin:0 auto;
+}
+.owl-carousel .owl-nav button.owl-next{
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+  position: absolute;
+  left:-20px;
+  top:40px;
+  width:50px;
+  height: 50px;
+  line-height: 5px;
+  outline: none;
+  border:0px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+  position: absolute;
+  right:-20px;
+  top:40px;
+  
+  line-height: 5px;
+  outline: none;
+  border:0px;
+}
+        
+.footerSection .row h2{
+  color:#FFFFFF;
+  font-size:22px;
+  border-bottom: 2px solid #A6D141;
+  padding-bottom: 15px;
+
+}  
+.footerSection .footerCopyright p{
+  font-size: 13px;
+
+}   
+ }

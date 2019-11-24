@@ -1,0 +1,456 @@
+
+body{
+    direction: rtl;
+    font-family: 'NotoKufiArabic-regular';
+    color: #fff;
+
+
+}
+
+@font-face {
+font-family: 'NotoKufiArabic-regular';
+src: url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf');
+src: local('☺'),  url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.bg-dark {
+    background-color: #000000!important;
+}
+.navbar .navbar-brand img{
+   height: 45px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#FFFFFF;
+    font-size: 17px;
+    padding-left: 6px 15px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#A6D141;
+}
+.social{
+    margin-right: 45px;
+}
+
+
+a.btn {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+
+}
+.btn:hover{
+    background: #A6D141;
+
+}
+
+.mainSection{
+    background: transparent url("../img/BG.png");
+    background-size: cover;
+    color: #FFF;
+    height: 150vh;
+    overflow: hidden;
+    opacity: 1;
+}
+/*/**
+.mainSection .overlay {
+    background: rgba(26, 24, 24, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+*/
+
+.mainSection h1{
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.mainSection p{
+    font-size: 24px;
+}
+.mainSection .squareTop {
+    width: 250px;
+    height: 280px;
+    background: transparent ;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgb(58, 57, 57);
+    border: 1px solid #A6D141;
+    padding: 15px 20px;
+   
+    
+}
+
+
+.mainSection .squareTop h2{
+    color: #A6D141;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.mainSection .squareTop p{
+    color:#fff;
+    font-size: 14px;
+    text-align: center;
+
+}
+.mainSection .buttonSection{
+
+width: 1120px;
+height: 150px;
+border-radius: 15px;
+overflow: hidden;
+background: rgb(58, 57, 57);
+border: 1px solid #A6D141;
+padding: 50px 20px;
+
+}
+
+.form-row .col-auto select {
+    width:220px;
+    outline: 0px;
+    border: 0px;
+    padding: 4px 30px ;
+    border-radius: 15px;
+    position: relative;
+}
+
+form .col-auto span{
+    color: #000000;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    font-size: 18px;
+}
+form .col-auto a{
+    width: 140px;
+    background: #A6D141;
+    border: 0px;
+    outline: none;
+    margin-top: 10px;
+    padding:9px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: 0px;
+    border: 0px;
+
+
+
+}
+form .col-auto a:hover{
+    background: #A6D141;
+    outline: 0px;
+    border: 0px;
+}
+.section{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    color: #000000;
+    
+
+}
+.section h2{
+    font-weight: bold;
+    color: #A6D141;
+    font-size: 35px;
+
+}
+/*features*/
+
+.features  .row a{
+    color: #A6D141;
+    font-size: 45px;
+}
+
+.features  .row .circle{
+    background: #FFF;
+   padding: 10px 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.features h2{
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.features p{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+/**/
+.servicessSection .nav .nav-item a{
+    font-size: 25px;
+    color: #000000;
+    padding-left: 30px;
+    border: 1px solid #A6D141;
+
+}
+.servicessSection .nav .teacher a{
+    
+    padding-right: 180px;
+
+}
+
+.special-menu{
+    margin-bottom: 40px;
+}
+.filter-button-group{
+    display: inline-block;
+}
+.filter-button-group button{
+    background: #fff;
+    color:#000;
+    border: 1px solid #A6D141;
+    cursor: pointer;
+    padding: 7px 50px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.special-menu a:hover{
+    text-decoration: none;
+}
+.filter-button-group button:hover{
+    background:#A6D141;
+    color:#fff;
+    border: 1px solid #A6D141;
+}  
+.servicessSection .row h3{
+    color: #000;
+    font-weight: bold;
+}
+.servicessSection .row p{
+    color: #000;
+    font-size: 18px;
+}
+.servicessSection .row .descText{
+    height: 210px;
+    overflow: hidden;
+}
+.servicessSection .row video{
+    border-radius: 30px;
+    width: 450px;
+    height: 330px;
+}
+.servicessSection .row .btn-success {
+    width: 250px;
+    height: 40px;
+    line-height: 28px;
+    background: #A6D141;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+    border:0px;
+    outline: none;
+}
+.servicessSection .row .btn-success:hover{
+  
+    color: #A6D141;
+    background: #fff;
+    border: 1px solid #A6D141;
+}
+.holidaySection{
+    background: #0000 url("../img/backHoliday.png");
+    background-size: cover;
+    color: #FFF;
+    overflow: hidden;
+    opacity: 1;
+    height: 250px;
+
+}
+.holidaySection .overlay {
+    background: rgba(32, 27, 27, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    height: 250px;
+    padding: 50px 140px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+
+}
+.holidaySection h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.holidaySection p{
+    color: #fff;
+    font-size: 19px;
+}
+.holidaySection .row .btn-light{
+    width: 200px;
+    height: 40px;
+    line-height: 28px;
+    color: rgb(14, 14, 15);
+    font-size: 17px;
+    border-radius: 30px;
+    border:0px;
+    outline: none;
+    font-weight: bold;
+
+}
+/**/
+
+.statesExperience .states{
+
+  background:linear-gradient(to left, #06722C ,#2AAB48);;
+  height: auto;
+  color:#fff;
+
+} 
+.statesExperience .row a{
+    font-size: 45px;
+    color: #fff;
+}
+.statesExperience .row h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.statesExperience .row h4{
+    font-size: 25px;
+    color: #fff;
+}
+/*/**/
+.SupportingStates h2{
+    color: #000;
+
+}
+/*owl-carousal*/
+.item{
+    width:100%;
+    text-align: center;
+}
+
+.SupportingStates .owl-carousel .item h3{
+    font-size: 17px;
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.SupportingStates .owl-theme .owl-nav {
+    color:rgb(95, 97, 92);
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: 0px;
+    outline: none;
+    border:0px;
+}
+.owl-carousel.owl-rtl {
+    direction: rtl;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    left:-70px;
+    top:35px;
+    width:50px;
+    height: 50px;
+    line-height: 5px;
+    outline: none;
+    border:0px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    right:-80px;
+    top:35px;
+    width:50px;
+    height: 50px;
+    line-height: 5px;
+    outline: none;
+    border:0px;
+}
+.owl-carousel .owl-nav button.owl-next:hover,.owl-carousel .owl-nav button.owl-prev:hover{
+ outline: none;
+ border:0px;
+ background: transparent;
+ color:#A6D141;
+}
+
+
+/**/
+.footerSection {
+    padding-top:50px;
+    background: #000000;
+    color:#FFF;
+}
+.footerSection .row p{
+    color:#FFFFFF;
+    font-size:15px;
+
+}
+.footerSection .row h2{
+    color:#FFFFFF;
+    font-size:22px;
+ 
+
+}
+.footerSection .footer-ul a {
+    color:#fff;
+    padding-left: 6px;
+    font-size: 15px;
+
+}
+.footerSection .footer-ul a i{
+    color:#fff;
+    font-size: 18px;
+
+}
+.footerSection .footer-ul a i:hover{
+    color:#A6D141;
+
+}
+.footerSection .row-1{
+    border-bottom: 1px solid rgb(110, 106, 106);
+    padding-bottom:20px;
+
+}
+.footerSection .footerCopyright p{
+    color:#fff;
+    font-size: 15px;
+
+}
+
+.footerSection .footer-Icon a{
+    font-size:18px;
+    color:#000;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding:5px 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 15px
+}
+.footerSection  .footer-Icon a:hover{
+    color:#A6D141;
+
+}
+
