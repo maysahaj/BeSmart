@@ -281,6 +281,23 @@
 .profileSection .profileDesc .nav-evaluate span{
   font-size: 18px;
 }
+.bodyQandAsection h2 {
+  color: #000;
+  font-size: 18px;
+}
+.bodyQandAsection p {
+  color: #BBBCC1;
+  font-size: 13px;
+  text-align: right;
+}
+.CurrentCourcesSection h2 {
+  color: #000;
+  font-size: 18px;
+}
+.CurrentCourcesSection p {
+  color: #BBBCC1;
+  font-size: 13px;
+}
 
 
 }

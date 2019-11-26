@@ -159,7 +159,7 @@ form .col-auto a:hover{
 .section{
     width: 100%;
     height: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     color: #000000;
     
 
@@ -866,6 +866,123 @@ form .col-auto a:hover{
 
 
 }
+.bodyQandAsection img{
+    width:95%;
+    display: flex;
+    margin: left auto;
+    margin: left;
+
+}
+.bodyQandAsection a.edit{
+    display: flex;
+    margin: 0 auto;
+    color:#000;
+    background: #FFF;
+    border: 2px solid #000;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 18px;
+    width: 150px;
+    outline:0px;
+    border-radius: 10px;
+    outline:0px;
+
+
+
+}
+.bodyQandAsection a.edit:hover{  
+    background:#000;
+    color: #FFF;
+    outline:0px;
+    border:0px;
+  
+}
+.CurrentCourcesSection{
+    background: #FFF;
+    border-right:5px solid #A6D141;
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    padding-right: 30px;
+    
+}
+.CurrentCourcesSection h2{
+    color:#000;
+    font-size:22px;
+
+}
+.CurrentCourcesSection .row .btn-light{
+    background: #FFF;
+    color:#000;
+    border:2px solid #000;
+    font-size: 16px;
+    line-height: 15px;
+    border-radius: 10px;
+}
+.CurrentCourcesSection .row .btn-light:hover{
+    background: #000;
+    color:#fff;
+}
+.CurrentCourcesSection .row span{
+    color:#BBBCC1;
+}
+.CurrentCources .row2{
+    border-right:5px solid #D16D41;
+  
+    
+}
+.CurrentCources .row3{
+    border-right:5px solid #B0C1D1;
+  
+    
+}
+.CurrentCources .row4{
+    border-right:5px solid #4641D1;
+  
+    
+}
+.CurrentCourcesSection p {
+    color:#BBBCC1;
+    font-size: 16px;
+
+}
+.option-blog a{
+    position: absolute;
+    top:110px;
+    height: 40px;
+    line-height: 40px;
+    width:40px;
+    color: #FFF;
+    font-size: 26px;
+    background: rgb(70, 68, 68);
+    right: 30px;
+    text-align: center;
+    border-radius: 50px;
+}
+.option-blog a:hover{
+    color:#FF6565;
+}
+.Blog-Descriotion .editCource {
+    margin-right: 100px;
+    background: #FFF;
+    color:#000;
+    border:2px solid #000;
+   
+}
+.courseSection .Blog-Descriotion .nav a.editCource {
+    color:#000;
+    font-size: 15px;
+    line-height: 15px;
+    padding-right: 15px;
+}
+.courseSection .Blog-Descriotion .nav a.editCource:hover{
+    color:#ffff;
+    background: #000;
+    outline: 0px;
+    border:0px;
+
+  
+}
+
 
 
     
