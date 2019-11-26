@@ -235,6 +235,46 @@
 .profileSection .profileEdit{
   text-align: center;
 }
+.courseSection .titleCource {
+  width:75%;
+  border-bottom: 3px solid #A6D141;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-right:30px;
+}
+.courseSection .blog-box{
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+  box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+  background: #ffffff;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  width:85%;
+  margin-right: 20px;
+}
+.courseSection .blog-img span mark{
+  position: absolute;
+  background: #FF6565;
+  left:50px;
+  top:110px;
+  border-radius: 20px;
+  padding:0px 20px;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.courseSection .row2  .blog-img span mark{
+  position: absolute;
+  background: #FF6565;
+  left:50px;
+  top:30px;
+  border-radius: 20px;
+  padding:0px 20px;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+
+}
 
 
 }

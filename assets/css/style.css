@@ -704,6 +704,121 @@ form .col-auto a:hover{
     outline: none;
     border:none;
 }
+.profile .profileSection{
+    border-bottom:1px solid #E9E9F0;
+    padding-bottom: 30px;
+}
+/* coursess page css*/
+.courseSection .titleCource {
+    width:85%;
+    border-bottom: 3px solid #A6D141;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 45px;
+}
+.courseSection .titleCource h4{
+    color: #E9E9F0;
+    font-size: 18px;
+}
+.courseSection .titleCource span{
+    color: #000;
+    font-size: 20px;
+}
+.courseSection .blog-box{
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    background: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.courseSection .blog-img{
+    width:100%;}
+
+.courseSection .blog-img img{
+    position: relative;
+}
+.courseSection .blog-img span mark{
+    position: absolute;
+    background: #FF6565;
+    left:10px;
+    top:110px;
+    border-radius: 20px;
+    padding:0px 20px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.courseSection .row2  .blog-img span mark{
+    position: absolute;
+    background: #FF6565;
+    left:10px;
+    top:30px;
+    border-radius: 20px;
+    padding:0px 20px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.courseSection .blog-content{
+    position: relative;
+}
+.courseSection .title-blog{
+    padding: 20px 10px 0px 0px;
+}
+
+
+.courseSection .Blog-Descriotion{
+    color:#000;
+    width: 100%;
+
+}
+.courseSection  .Blog-Descriotion h2{
+    color:#000;
+    font-size: 18px;
+    
+}
+.courseSection  .Blog-Descriotion .nav-link {
+    display: block;
+    padding: .5rem 0rem;
+    
+}
+.courseSection  .Blog-Descriotion .nav a{
+    color:#C9C9C9;
+    font-size: 12px;
+    padding-left: 10px;
+    
+}
+.title-blog .buttonsMore{
+    padding-right: 10px;
+
+
+}
+.title-blog .buttonsMore a{
+    background: #ffffff;
+    color:#000;
+    border:2px solid #000000;
+    border-radius: 10px;
+    height: 30px;
+    width:130px;
+    line-height: 10px;
+    outline: 0px;
+    opacity: 1;
+
+}
+.title-blog .buttonsMore a:hover{
+    outline: 0px;
+     background: #000;
+     color:#fff;
+
+    
+
+}
+
+
+
+
 
 
 
