@@ -22,26 +22,30 @@ font-style: normal;
 }
 .navbar-dark .navbar-nav .nav-link {
     color:#FFFFFF;
-    font-size: 17px;
-    padding-left: 6px 15px;
+    font-size: 16px;
+    padding-left:5px;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
     color:#A6D141;
 }
 .social{
-    margin-right: 45px;
+    margin-right: 60px;
 }
+
 
 
 a.btn {
     border: 1px solid #fff;
     border-radius: 15px;
-    font-size: 14px;
+    font-size: 13px;
     color: #fff;
+    width: 125px;
+    height: 35px;
 
 }
 .btn:hover{
     background: #A6D141;
+    border: 0px;
 
 }
 
@@ -52,6 +56,7 @@ a.btn {
     height: auto;
     overflow: hidden;
     opacity: 1;
+    
 }
 /*/**
 .mainSection .overlay {
@@ -64,7 +69,7 @@ a.btn {
 */
 
 .mainSection h1{
-    margin-top: 180px;
+    margin-top: 160px;
     font-weight: bold;
     font-size: 30px;
 }
@@ -72,15 +77,16 @@ a.btn {
     font-size: 24px;
 }
 .mainSection .squareTop {
-    width: 250px;
-    height: 280px;
+    width: 230px;
+    height: 260px;
     background: transparent ;
     border-radius: 20px;
     overflow: hidden;
     background: rgb(58, 57, 57);
     border: 1px solid #A6D141;
     padding: 15px 20px;
-   
+    background: #0C0F23 0% 0% no-repeat padding-box;
+    opacity: .68;  
     
 }
 
@@ -101,13 +107,15 @@ a.btn {
 }
 .mainSection .buttonSection{
 
-width: 1120px;
+width: 1100px;
 height: 150px;
 border-radius: 15px;
 overflow: hidden;
 background: rgb(58, 57, 57);
 border: 1px solid #A6D141;
 padding: 50px 20px;
+background: #0C0F23;
+opacity: .68; 
 
 }
 
@@ -539,4 +547,166 @@ form .col-auto a:hover{
 .src-btn a:hover{
     text-decoration: none;
 }
+
+/*/*connect awaypage css*//**/
+.BodySection .row video{
+    border-radius: 32px;
+    width:100%; 
+    height:480px;
+    
+}
+.BodySection .row .card-connect{
+    width: 100%;
+    height: 150px;
+    border:1px solid red;
+    border-radius: 32px;
+
+}
+
+.blog-post img {
+	width: 45%;
+    overflow: hidden;
+    height: 130px;
+}
+
+.blog-post {
+	margin-bottom: 30px;
+    display: inline-block;
+    background: #fff;
+
+}
+
+.blog-post .right-content {
+	background-color: #fff;
+	width: 55%;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+
+.blog-post .right-content h4 {
+	
+	font-size: 18px;
+    color: #121212;
+    font-weight: bold;
+}
+.blog-post .right-content p {
+	
+	font-size: 13px;
+    color: #BBBCC1;
+    overflow: hidden;
+    height: 60px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 0px;
+}
+.BodySection .Blog-Descriotion{
+    color:#000;
+    padding-top:10px;
+
+}
+.BodySection .Blog-Descriotion h2{
+    color:#000;
+    font-size: 28px;
+    
+}
+.BodySection .Blog-Descriotion .nav-link {
+    display: block;
+    padding: .5rem 0rem;
+    
+}
+.BodySection .Blog-Descriotion .nav a{
+    color:#C9C9C9;
+    font-size: 18px;
+    padding-left: 20px;
+    
+}
+.BodySection .Blog-Descriotion  p{
+    color:#5A5C69;
+    font-size: 15px;
+    height: 65px;
+    overflow: hidden;
+    
+}
+.profile{
+    margin-top:100px;
+}
+.profileSection{
+    display: flex;
+    margin:0 auto;
+    width: 70%;
+    
+}
+.profileSection .row .col-lg-4 img{
+    width:160px;
+    height: 160px;
+    border-radius: 50%;
+    border:5px solid  #A6D141;
+    
+}
+.profileSection .row .col-lg-4{
+    border-left: 1px solid #E9E9F0;
+    padding-left:170px;
+
+}
+
+.profileSection h3{
+  font-size: 20px;
+  color:#000;
+  font-weight: bold;
+}
+.profileSection .profileDesc {
+    padding-right: 30px;
+    text-align: right;
+}
+.profileSection a:hover {
+    text-decoration: none;
+}
+.profileSection .profileDesc  a{
+    color:#E9E9F0;
+}
+.profileSection .profileDesc .nav a:hover {
+    text-decoration: none;
+    color: #E9E9F0;
+}
+
+.profileSection .profileDesc .nav-evaluate a:hover {
+    text-decoration: none;
+    color:yellow;
+}
+.profileSection .profileDesc .nav-evaluate a{
+    font-size: 20px;
+}
+.profileSection .profileDesc .nav-evaluate span{
+    font-size: 20px;
+}
+.profileSection .profileEdit img{
+    height: 50px;
+}
+.profileSection .profileEdit .btn-success{
+    background: #FFF;
+    border:1px solid #A6D141;
+    color:#000;
+    outline: 0px;
+}
+
+.profileSection .profileEdit .btn-success:hover{
+    background: #A6D141;
+    color:#fff;
+    outline: none;
+    border:none;
+}
+
+
+
+
+
 
