@@ -889,6 +889,7 @@ form .col-auto a:hover{
 
 
 
+
 }
 .bodyQandAsection a.edit:hover{  
     background:#000;
@@ -947,41 +948,81 @@ form .col-auto a:hover{
 }
 .option-blog a{
     position: absolute;
-    top:110px;
+    top:30px;
     height: 40px;
     line-height: 40px;
     width:40px;
     color: #FFF;
     font-size: 26px;
-    background: rgb(70, 68, 68);
     right: 30px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 50px;  
+    background: rgb(70, 68, 68) 0% 0% no-repeat padding-box;
+    opacity: .7; 
+
 }
 .option-blog a:hover{
     color:#FF6565;
 }
 .Blog-Descriotion .editCource {
-    margin-right: 100px;
+    margin-right: 80px;
     background: #FFF;
     color:#000;
     border:2px solid #000;
+    
    
 }
 .courseSection .Blog-Descriotion .nav a.editCource {
     color:#000;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 10px;
     padding-right: 15px;
+    height: 30px;
+    width:140px;
+    border-radius: 10px;
 }
 .courseSection .Blog-Descriotion .nav a.editCource:hover{
     color:#ffff;
     background: #000;
     outline: 0px;
     border:0px;
+    
 
   
 }
+.courseSection-online .blog-img span mark{
+    position: absolute;
+    background: #FF6565;
+    left:10px;
+    top:30px;
+    border-radius: 20px;
+    padding:0px 20px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/*/*اون لاين كورس*/
+.courseSection-online ul {
+    padding-inline-start: 0px;
+}
+.courseSection-online ul li a{
+    background: #E9E9F0;
+    color: #B0C1D1;
+}
+.courseSection-online ul li a:hover{
+    background: #fff;
+    color: #A6D141;
+    border: 1px solid #A6D141;
+    border-bottom: 0px;
+}
+.courseSection-online  ul{
+    border-bottom: 1px solid #B0C1D1;
+    
+}
+
+
 
 
 

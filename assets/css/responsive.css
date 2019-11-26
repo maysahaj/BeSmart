@@ -267,7 +267,7 @@
   position: absolute;
   background: #FF6565;
   left:50px;
-  top:30px;
+  top:50px;
   border-radius: 20px;
   padding:0px 20px;
   color:#fff;
@@ -297,6 +297,46 @@
 .CurrentCourcesSection p {
   color: #BBBCC1;
   font-size: 13px;
+}
+.option-blog a{
+  position: absolute;
+  top:30px;
+  height: 40px;
+  line-height: 40px;
+  width:40px;
+  color: #FFF;
+  font-size: 26px;
+  background: rgb(70, 68, 68);
+  right: 45px;
+  text-align: center;
+  border-radius: 50px;
+}
+.Blog-Descriotion .editCource {
+  margin-right: 10px;
+  background: #FFF;
+  color:#000;
+  border:2px solid #000;
+ 
+}
+.courseSection .Blog-Descriotion .nav a.editCource {
+  color:#000;
+  font-size: 12px;
+  line-height: 4px;
+  padding-right: 15px;
+  height: 25px;
+  width:70px;
+}
+.courseSection-online .blog-img span mark{
+  position: absolute;
+  background: #FF6565;
+  left:50px;
+  top:30px;
+  border-radius: 20px;
+  padding:0px 20px;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+
 }
 
 
