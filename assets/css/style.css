@@ -779,6 +779,15 @@ form .col-auto a:hover{
     font-size: 18px;
     
 }
+.courseSection  .Blog-Descriotion a:hover{
+    text-decoration: none;
+}
+.courseSection  .Blog-Descriotion a h2:hover{
+   text-decoration: none;
+   color:#FF6565;
+
+    
+}
 .courseSection  .Blog-Descriotion .nav-link {
     display: block;
     padding: .5rem 0rem;
