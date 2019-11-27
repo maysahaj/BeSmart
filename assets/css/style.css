@@ -1154,6 +1154,7 @@ form .col-auto a:hover{
 }
 .loginPart .row .imglogin img{
     width:100%;
+    height: 100%;
 }
 .loginPart .row .form-group span{
     position: absolute;
