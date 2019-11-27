@@ -1101,6 +1101,80 @@ form .col-auto a:hover{
 }
 /*/*save pages edits*//**/
 
+/* login page*/
+.loginPart{
+    width:70%;
+    height: auto;
+    border: 1px solid #fff;
+    margin:0 auto;
+    display:flex;
+    border-radius: 32px;
 
+
+}
+.loginSection{
+    padding: 100px;
+    color:#000;
     
- 
+   
+} 
+.loginPart .form-group input{
+    background: #F5F8F9;
+    width:370px;
+    display: flex;
+    margin: 0 auto;
+    outline: 0px ;
+    height: 45px;
+    border:0px;
+    border-radius: 35px;
+    font-size: 15px;
+    padding: 6px 35px;
+    position: relative;
+}
+  
+
+.loginPart .infologin img{
+    height: 60px;
+    width: 150px;
+    margin-top:30px;
+}
+.loginPart .infologin h3{
+    font-size: 25px;
+    font-weight: bold;
+    color:#000;
+    
+}
+.loginPart .row .infologin h4{
+    font-size: 20px;
+    color:#B0C1D1;
+    
+}
+.loginPart .row .imglogin img{
+    width:100%;
+}
+.loginPart .row .form-group span{
+    position: absolute;
+    top:203px;
+    left:380px;
+    color:#C9C9C9;
+}
+.loginPart .row .passIcon img{
+    position: absolute;
+    top:233px;
+    left:380px;
+    color:#C9C9C9;
+    height: 20px ;
+    width:20px;
+}
+.loginPart .row .passIcon .eye{
+    position: absolute;
+    top:237px;
+    left:70px;
+    color:#C9C9C9;
+    height: 20px ;
+    width:20px;
+}
+.loginPart .row .form-group{
+    text-align: right;
+}
+
