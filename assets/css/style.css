@@ -1266,13 +1266,15 @@ form .col-auto a:hover{
 }
 .loginPart .row .teachersection{
     margin-right:30px;
+    color:#000;
 
 
 }
 .loginPart .row .teachersection #select{
     width:130px;
     height: 50px;
-    font-size: 12px;
+    font-size: 13px;
+    background: #A6D141;
 
 }
 
