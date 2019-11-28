@@ -1274,6 +1274,10 @@ form .col-auto a:hover{
     width:130px;
     height: 50px;
     font-size: 13px;
+
+}
+.loginPart .row .teachersection #select:hover{
+   
     background: #A6D141;
 
 }
