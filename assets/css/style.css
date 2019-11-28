@@ -1264,6 +1264,17 @@ form .col-auto a:hover{
     
 
 }
+.loginPart .row .teachersection{
+    margin-right:30px;
+
+
+}
+.loginPart .row .teachersection #select{
+    width:130px;
+    height: 50px;
+    font-size: 12px;
+
+}
 
 
 
