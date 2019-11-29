@@ -404,6 +404,19 @@ outline: 0px;
  display: none;
 
 }
+.form-group .fa-bookmark{
+  display: none;
+}
+  .fa-question-circle{
+    display: none;
+
+}
+.fa-check {
+  display: none;
+}
+
+
 
 
 }
+

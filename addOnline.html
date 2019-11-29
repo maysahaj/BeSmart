@@ -13,7 +13,10 @@
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
 	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/new.css" type="text/css">
+
+    
 
 </head>
 <body>
@@ -74,94 +77,120 @@
     <!-------navbar ends-->
     <!------- profile section start---------->
 	<!-------------courses section start--------------------------->
-	<div class="section addContent">
+	<div class="section add1">
 		<div class="container">
 			<h2 class = "text-center">إضافة المحتوى</h2>
-			<h3 class = "text-right mr-5">اضافة الملفات</h3>
-			<ul class="nav nav-pills mt-5">
+			<h3 class = "text-right mt-3">اضافة الملفات</h3>
+			<ul class="nav nav-pills mt-3">
 				<li class="nav-item pl-lg-2">
 					<a class="nav-link" href="#">فيديو<i class="fas fa-video pr-1"></i></a>
 				</li>
 				
-				<li class="nav-item pl-lg-2">
+				<li class="nav-item pl-lg-2 row-2">
 					<a class="nav-link" href="addQaA.html">أسئلة وأجوبة<i class="fas fa-users pr-1"></i></a>
 					</li>
-					<li class="nav-item pl-lg-2">
+					<li class="nav-item pl-lg-2 row-2">
 					<a class="nav-link" href="addMemory.html">مذكرات<i class="fas fa-bookmark pr-1"></i></a>
 				</li>
-				<li class="nav-item pl-lg-2">
-					<a class="nav-link" href="addOnline.html"><i class="fas fa-image pl-1"></i>شرح أون لاين</a>
+				<li class="nav-item pl-lg-2 row-2">
+					<a class="nav-link" href="addOnline.html">شرح أون لاين<i class="fas fa-image pr-1"></i></a>
 				</li>	
 				
-				<li class="nav-item pl-lg-2">
-					<a class="nav-link  " href="addContent.html"><i class="fas fa-play pl-1"></i>السينما الدراسية</a>
+				<li class="nav-item pl-lg-2 row-2">
+					<a class="nav-link  " href="add1.html">السينما الدراسية<i class="fas fa-play pr-1"></i></a>
 				</li>
-			</ul>
-			<form>
-				<div class="form-group row mt-3"> 
-				<select id="select" class="round form-control " name="country">
-					<option >
-						إختر الدولة
-					</option>
-						<option >1</option>
-						<option >1</option>
-						<option >1</option>		
-				</select>
-				<select id="select" class="round form-control " name="country">			
-						<option >
-							إختر الفرع
-						</option>
-							<option >1</option>
-							<option >1</option>
-							<option >1</option>		
-					</select>
-				</div>
-				<div class="form-group row mt-3"> 
-						<select id="select" class="round form-control " name="country">
-							<option >
-								إختر التخصص
-							</option>
-								<option >1</option>
-								<option >1</option>
-								<option >1</option>		
-						</select>
-						<select id="select" class="round form-control " name="country">			
-								<option >
-									إختر المادة
-								</option>
-									<option >1</option>
-									<option >1</option>
-									<option >1</option>		
-							</select>
-						</div>
-				<div class="form-group mt-3"> 
-					<input type="text" class = "form-control" placeholder="أدخل اسم الدرس">
-                </div>
-                <div class="form-group row mt-3"> 
-                        <select id="select" class="round form-control " name="country">
-                            <option >
-                                اختر تاريخ العرض
-                            </option>
-                                <option >1</option>
-                                <option >1</option>
-                                <option >1</option>		
-                        </select>
-                        <select id="select" class="round form-control " name="country">			
-                                <option >
-                                    إختر وقت العرض
-                                </option>
-                                    <option >1</option>
-                                    <option >1</option>
-                                    <option >1</option>		
+            </ul> 
+            <!------------->
+            <form action="">
+                <div class=" form-group row text-right mt-5">  
+                    <div class="col-lg-6">
+                        <!-- Custom select structure -->
+                        <label for="">الدولة</label> 
+                        <div class="select-style" >
+                            <select>
+                            <option value="اختر الفرع">الدولة</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
                             </select>
                         </div>
-				<div class="form-group  row mt-3"> 
-					<input type="text"  placeholder="حمل الفيديو">
-					<a class = "btn-light download" href="">تحميل</a>
-					<input type="text" placeholder="أدخل السعر">
-				</div>
-			</form> 
-			<h3 class = "text-right mr-5"><i class="fas fa-toggle-on pl-1"></i>هل تريد انشاء كوبون</h3>
+                        <span>
+                            <i class="fas fa-globe"></i>
+                        </span>
+                        <!-- Custom select structure -->      
+                    </div>
+                    <div class="col-lg-6">                    
+                        <!-- Custom select structure -->
+                        <label for="">الفرع</label>
+                        <div class="select-style" >
+                            <select>
+                                <option value="اختر الفرع">الفرع</option>
+                                <option value="1">1</option>
+                                <option value="1">1</option>
+                                <option value="1">1</option>
+                            </select>  
+                        </div>
+                        <span>
+                            <i class="fab fa-trello"></i>
+                        </span>
+                            <!-- Custom select structure -->  
+                    </div>
+                </div>
+                <div class=" form-group row text-right mt-3">  
+                    <div class="col-lg-6">
+                        <!-- Custom select structure -->
+                        <label for="">التخصص</label> 
+                        <div class="select-style" >
+                            <select>
+                            <option value="اختر الفرع">التخصص</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                            </select>
+                        </div>
+                        <span><i class="fas fa-briefcase"></i></span>
+                        <!-- Custom select structure -->      
+                    </div>
+                    <div class="col-lg-6">                    
+                        <!-- Custom select structure -->
+                        <label for="">المادة</label>
+                        <div class="select-style" >
+                            <select>
+                                <option value="اختر الفرع">المادة</option>
+                                <option value="1">1</option>
+                                <option value="1">1</option>
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                        <span><i class="fas fa-book-open"></i></span>
+                            <!-- Custom select structure -->  
+                    </div>
+                </div>
+                <div class=" form-group text-right mt-3">  
+                    <!-- Custom select structure -->
+                    <label for="">اسم الدرس</label>
+                    <input type="text" class = "form-control" placeholder="أدخل اسم الدرس">
+                    <span><i class="fas fa-play"></i></span>
+                </div>
+
+                <div class="form-group input-index text-right row mt-3">
+                    <div class="col-lg-6">
+                        <label for="">تحميل الفيديو</label>
+                        <input type="text"  placeholder="حمل الفيديو">
+                        <a class = "btn-light" href="">تحميل</a>
+                        <span><i class="fas fa-paperclip"></i></span>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="">السعر</label>
+                        <input type="text" placeholder="أدخل السعر">
+                        <span><i class="fas fa-dollar-sign"></i></span>
+                    </div>
+                </div>
+                <a class = "kobon" href="">
+                    <h3 class = "text-right mt-3 row-2"><i class="fas fa-toggle-on pl-1"></i>هل تريد انشاء كوبون</h3>
+                </a>
+            </form>
 			<div class="loginbutton text-center mt-3">
 				<a claas = "btn btn-light" href="">تحميل</a>
 			</div>		
