@@ -390,7 +390,20 @@ outline: 0px;
 .imglogin{
   display:none;
 }
+.add1 .row-2{
+  margin-top:10px;
+}
+.add1 ul li{
+  display: flex;
+    margin: 0 auto;
+  
 
+
+}
+.form-group .fa-play{
+ display: none;
+
+}
 
 
 }
