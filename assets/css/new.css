@@ -114,6 +114,10 @@ border:1px solid #A6D141;
     color:#000 ;
     font-size: 18px;
 }
+.add1 form  a h3:hover{
+    color:#A6D141 ;
+    text-decoration: none;
+}
 .add1 form .fa-toggle-on{
     color:rgb(132, 140, 143);
     font-size: 22px;
@@ -269,6 +273,14 @@ ul.nav-2 li{
     display: flex;
     margin: 0 auto;
     
+}
+.add1 a:hover{
+    text-decoration: none;
+}
+
+.fa-plus-circle{
+    color: #A6D141;
+    font-size: 25px;
 }
 
 
