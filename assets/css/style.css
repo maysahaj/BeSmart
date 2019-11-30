@@ -669,78 +669,76 @@ opacity: .68;
     overflow: hidden;
     
 }
+/*/*profile*/
 .profile{
     margin-top:100px;
 }
-.profileSection{
-    display: flex;
-    margin:0 auto;
-    width: 70%;
-    
-}
-.profileSection .row .col-lg-4 img{
-    width:160px;
-    height: 160px;
-    border-radius: 50%;
-    border:5px solid  #A6D141;
-    
-}
-.profileSection .row .col-lg-4{
-    border-left: 1px solid #E9E9F0;
-    padding-left:170px;
-
-}
-
-.profileSection h3{
-  font-size: 20px;
-  color:#000;
-  font-weight: bold;
-}
-.profileSection .profileDesc {
-    padding-right: 30px;
-    text-align: right;
-}
-.profileSection a:hover {
-    text-decoration: none;
-}
-.profileSection .profileDesc  a{
-    color:#E9E9F0;
-}
-.profileSection .profileDesc .nav a:hover {
-    text-decoration: none;
-    color: #E9E9F0;
-}
-
-.profileSection .profileDesc .nav-evaluate a:hover {
-    text-decoration: none;
-    color:yellow;
-}
-.profileSection .profileDesc .nav-evaluate a{
-    font-size: 20px;
-}
-.profileSection .profileDesc .nav-evaluate span{
-    font-size: 20px;
-}
-.profileSection .profileEdit img{
-    height: 50px;
-}
-.profileSection .profileEdit .btn-success{
-    background: #FFF;
-    border:1px solid #A6D141;
-    color:#000;
-    outline: 0px;
-}
-
-.profileSection .profileEdit .btn-success:hover{
-    background: #A6D141;
-    color:#fff;
-    outline: none;
-    border:none;
-}
-.profile .profileSection{
-    border-bottom:1px solid #E9E9F0;
-    padding-bottom: 30px;
-}
+.profilesection{
+    width:50%;
+   background: #fff;
+   color: #B0C1D1;
+   height: auto;
+   line-height: 38px;
+   text-align: center;
+   border-radius: 10px;
+   -webkit-box-shadow: 0px 100px 100px 0px rgba(196, 196, 214, 0.15);
+   box-shadow: 0px 5px  5px rgba(148, 146, 245, 0.15);
+   margin : 0 auto;
+   border: 1px solid #E1E5E9;
+   }
+.profilesection .user-profile .row  .img-profile img{
+       border:5px solid #A6D141;
+       border-radius: 50%;
+       width:150px;
+       height:150px;
+   
+   
+   
+   }
+   .profilesection .user-desc{
+       border-right:1px solid #E1E5E9;
+   }
+   .profilesection .user-profile h2{
+       font-size:20px;
+       color:#000;
+       font-weight: bold;
+   
+   
+   }
+   .profilesection nav a{
+       font-size: 12px;
+   }
+   .profilesection .nav-evaluate a:hover {
+       text-decoration: none;
+       color:yellow;
+   }
+   .profilesection .nav-evaluate a{
+       font-size: 20px;
+       color:#B0C1D1;
+   }
+   .profilesection .nav-evaluate span{
+       font-size: 20px;
+       color:#000
+   }
+   .profilesection .user-pv img{
+       width:120px;
+   }
+   .profilesection .btn-light{
+       background: #FFF;
+       border:1px solid #A6D141;
+       color:#000;
+       outline: 0px;
+   }
+   
+   .profilesection .btn-light:hover{
+       background: #A6D141;
+       color:#fff;
+       outline: none;
+       border:none;
+   }
+   .profilesection a:hover{
+       text-decoration: none;
+   }
 /* coursess page css*/
 .courseSection .titleCource {
     width:85%;

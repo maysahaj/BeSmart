@@ -24,7 +24,7 @@
     position: relative;
 
     
-}
+}z
 
 .select-style select:focus {
     outline: none;
@@ -290,5 +290,9 @@ ul.nav-2 li{
     color: #A6D141;
     font-size: 25px;
 }
+
+
+
+
 
 
