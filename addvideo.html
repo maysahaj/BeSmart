@@ -83,7 +83,7 @@
 			<h3 class = "text-right mt-3">اضافة الملفات</h3>
 			<ul class="nav nav-pills mt-3">
 				<li class="nav-item pl-lg-2">
-					<a class="nav-link" href="#">فيديو<i class="fas fa-video pr-1"></i></a>
+					<a class="nav-link" href="addvideo.html">فيديو<i class="fas fa-video pr-1"></i></a>
 				</li>
 				
 				<li class="nav-item pl-lg-2 row-2">
@@ -102,10 +102,10 @@
             </ul> 
             <ul class="nav nav-pills nav-2 mt-5">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">كورس<i class="far fa-images pr-1"></i></a>
+                    <a class="nav-link" href="addvideo.html">كورس<i class="far fa-images pr-1"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link row-2 mr-lg-3" href="">فيديو<i class="fas fa-video pr-1"></i></a>
+                    <a class="nav-link row-2 mr-lg-3" href="addvideo.html">فيديو<i class="fas fa-video pr-1"></i></a>
                 </li>            
             </ul> 
             <!------------->
@@ -162,10 +162,10 @@
                     </div>
                     <div class="col-lg-6">                    
                         <!-- Custom select structure -->
-                        <label for="">المادة</label>
+                        <label for="">القسم</label>
                         <div class="select-style" >
                             <select>
-                                <option value="اختر الفرع">المادة</option>
+                                <option value="اختر الفرع">القسم</option>
                                 <option value="1">1</option>
                                 <option value="1">1</option>
                                 <option value="1">1</option>
@@ -174,12 +174,31 @@
                         <span><i class="fas fa-book-open"></i></span>
                             <!-- Custom select structure -->  
                     </div>
-                </div>
-                <div class=" form-group text-right mt-3">  
-                    <!-- Custom select structure -->
-                    <label for="">اسم الدرس</label>
-                    <input type="text" class = "form-control" placeholder="أدخل اسم الدرس">
-                    <span><i class="fas fa-play"></i></span>
+				</div>
+				<div class=" form-group row text-right mt-3">  
+					<div class="col-lg-6">
+						<!-- Custom select structure -->
+
+						<label for="">المادة</label> 
+						<div class="select-style" >
+							<select>
+							<option value="اختر الفرع">الماددة</option>
+							<option value="1">1</option>
+							<option value="1">1</option>
+							<option value="1">1</option>
+							</select>
+						</div>
+						<span><i class="fas fa-book-open"></i></span>
+
+						<!-- Custom select structure -->      
+					</div>
+					<div class="col-lg-6">
+							<div class=" form-group videolesson  text-right">  
+							<!-- Custom select structure -->
+							<label for="">اسم الدرس</label>
+							<input type="text" class = "form-control" placeholder="أدخل اسم الدرس">
+						</div>                   
+					</div>
 				</div>
                 <div class="form-group input-index text-right row mt-3">
                     <div class="col-lg-6">
@@ -199,7 +218,6 @@
                     <!-- Custom select structure -->
                     <label for="">محتويات النظام</label>
                     <textarea type="text" class = "form-control" placeholder="اشرح محتويات النظام"></textarea>
-                    <span><i class="far fa-question-circle"></i></span>
                 </div>
                 <div class="row">
                     <a class = "kobon" href="">
