@@ -55,9 +55,7 @@
   
 }
 .mainSection .squareTop p {
-  color: #fff;
-  font-size: 11px;
-  text-align: center;
+  display: none;
 }
 .mainSection .row .squareTop a img {
   width:40px;
