@@ -79,9 +79,12 @@ background-color: #A6D141;
   list-style: none;
   text-align: center;
 }
+.row1{
+  margin-top:0px;
+}
 
   }
-  @media (min-width: 1024px) {
+  @media (width: 1024px) {
     .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
       display: none;
     /* Large Screen */}
@@ -91,6 +94,7 @@ background-color: #A6D141;
       width: 80%;
 
     }
+    
     a.btn {
       border: 1px solid #fff;
       border-radius: 15px;
@@ -100,6 +104,18 @@ background-color: #A6D141;
       height: 35px;
       line-height: 20px;
     }
+    .mainSection .select-style {
+      border: 1px solid #fff;
+      width: 80%;
+      height: 50px;
+      border-radius: 3px;
+      overflow: hidden;
+      background: #F5F8F9 url("../img/arrow.PNG") no-repeat 5% 60%;
+      border-radius: 20px;
+      position: relative;
+  
+  
+  }
    
   }
 @media (max-width:992px) {
@@ -146,8 +162,9 @@ background-color: #A6D141;
     margin-top:20px;
   }
   .mainSection .squareTop {
-    width: 120px;
+    width: 200px;
     height: 150px;
+    margin: 0 auto;
    
 }
 
