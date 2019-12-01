@@ -58,7 +58,8 @@ a.btn {
     opacity: 1;
     
 }
-/*/**
+
+/*/***
 .mainSection .overlay {
     background: rgba(26, 24, 24, 0.7);
     width: 100%;
@@ -67,6 +68,8 @@ a.btn {
     position: relative;
 }
 */
+
+/**/
 
 .mainSection h1{
     margin-top: 160px;
@@ -83,10 +86,12 @@ a.btn {
     border-radius: 20px;
     overflow: hidden;
     background: rgb(58, 57, 57);
-    border: 1px solid #A6D141;
     padding: 15px 20px;
     background: #0C0F23 0% 0% no-repeat padding-box;
-    opacity: .68;  
+    opacity: .68; 
+    text-align: center;
+    background-color: #5353538a;
+    border-radius: 15px; 
     
 }
 
@@ -112,13 +117,16 @@ height: auto;
 border-radius: 15px;
 overflow: hidden;
 background: rgb(58, 57, 57);
-border: 1px solid #A6D141;
 padding: 50px 20px;
 background: #0C0F23;
 opacity: .68; 
 position: relative;
 background: #0C0F23 0% 0% no-repeat padding-box;
 opacity: .68; 
+text-align: center;
+background-color: #5353538a;
+border-radius: 15px; 
+    
 
 }
 .buttonSection .fa-globe{
