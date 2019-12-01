@@ -466,6 +466,28 @@ outline: 0px;
   font-size: 12px;
 
 }
+.loginPart .row .form-group span{
+  position: absolute;
+  top:225px;
+  right:60px;
+  color:#C9C9C9;
+}
+.loginPart .row .passIcon img{
+  position: absolute;
+  top:290px;
+  right:60px;
+  color:#C9C9C9;
+  height: 20px ;
+  width:20px;
+}
+.loginPart .row .passIcon .eye{
+  position: absolute;
+  top:290px;
+  left:-130px;
+  color:#C9C9C9;
+  height: 20px ;
+  width:20px;
+}
 
 }
 
