@@ -1630,7 +1630,7 @@ ul.nav-2 li{
     background: #A6D141;
 
 }
-.loginPart  .select-style {
+.loginPart form  .select-style {
     border: 0px;
     width: 80%;
     height: 50px;
@@ -1641,9 +1641,12 @@ ul.nav-2 li{
     position: relative;
     display: flex;
     margin: 0 auto;
+    position: relative;
+
 
 
 }
+
 /*/* content page*//**/
 .ContenttCources .content-seq{
     
