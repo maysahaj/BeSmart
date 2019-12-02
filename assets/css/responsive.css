@@ -33,7 +33,7 @@
   }
    
   }
-@media (max-width:992px) {
+@media (max-width:768px) {
     .navbar-dark .navbar-toggler {
         border: 2px solid #fff ;
 
@@ -523,7 +523,7 @@ outline: 0px;
 }
 
 }
-@media (min-width: 768px) {
+@media (max-width: 576px) {
 
   .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
@@ -605,7 +605,7 @@ background-color: #A6D141;
   text-align: center;
 }
 .row1{
-  margin-top:0px;
+  margin-top:10px;
 }
 
   }
