@@ -29,23 +29,39 @@ font-style: normal;
     color:#A6D141;
 }
 .social{
-    margin-right: 60px;
+    margin-right: 40px;
+  
 }
-
-
-
-a.btn {
-    border: 1px solid #fff;
-    border-radius: 15px;
-    font-size: 13px;
+.social ul li a{
+    font-size: 18px;
     color: #fff;
-    width: 125px;
-    height: 35px;
+    padding-left: 12px;
 
 }
-.btn:hover{
+.social ul li a:hover{
+    color: #A6D141;
+
+}
+
+.user ul li a{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #fff;
+    width:150px;
+    text-align: center;
+    padding:4px 20px;
+
+}
+.user ul li a:hover{
+    text-decoration: none;
+    color: #fff;
     background: #A6D141;
-    border: 0px;
+}
+
+.user ul li a:hover{
+    color: #fff;
+    border: 1px solid #A6D141;
 
 }
 
@@ -162,7 +178,7 @@ border-radius: 15px;
 }
 .mainSection .select-style {
     border: 1px solid #fff;
-    width: 95%;
+    width: 200px;
     height: 50px;
     border-radius: 3px;
     overflow: hidden;
@@ -314,7 +330,7 @@ border-radius: 15px;
     color: #FFF;
     overflow: hidden;
     opacity: 1;
-    height: 250px;
+    height:auto;
 
 }
 .holidaySection .overlay {
@@ -323,13 +339,10 @@ border-radius: 15px;
     height: 100%;
     display: flex;
     position: relative;
-    height: 250px;
+    height:auto;
     padding: 50px 140px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
-
-
 }
 .holidaySection h2{
     color: #fff;
