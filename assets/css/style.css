@@ -1376,6 +1376,13 @@ border:1px solid #A6D141;
     font-size: 20px;;
 
 }
+.form-group .lesson{
+    color: #B0C1D1;
+    position: absolute;
+    top: 620px;
+    right: 130px;
+    font-size: 20px;
+}
 .form-group .fa-bookmark{
     color:#B0C1D1; 
     position: absolute;
@@ -1388,7 +1395,7 @@ border:1px solid #A6D141;
     color:#B0C1D1; 
     position: absolute;
     right:130px;
-    bottom:-40px;
+    top:720px;
     font-size: 20px;;
 
 }
@@ -1397,7 +1404,7 @@ border:1px solid #A6D141;
     position: absolute;
     right:130px;
     font-size: 20px;;
-    bottom:-190px;
+    top:860px;
 
 }
 .add1 .QandA textarea{

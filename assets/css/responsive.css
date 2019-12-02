@@ -109,6 +109,22 @@
   font-size: 20px;;
 
 }
+.fa-question-circle{
+  color:#B0C1D1; 
+  position: absolute;
+  right:60px;
+  top:760px;
+  font-size: 20px;;
+
+}
+.fa-check{
+  color:#B0C1D1; 
+  position: absolute;
+  right:60px;
+  font-size: 20px;;
+  top:910px;
+
+}
     
   
   }
