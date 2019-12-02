@@ -304,9 +304,9 @@ border-radius: 15px;
     height: 210px;
     overflow: hidden;
 }
-.servicessSection .row video{
+.servicessSection .row img{
     border-radius: 30px;
-    width: 450px;
+    width: 550px;
     height: 330px;
 }
 .servicessSection .row .btn-success {
