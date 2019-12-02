@@ -75,6 +75,14 @@
       width: 380px;
       height: 330px;
   }
+  .loginPart .row .passIcon .eye {
+    position: absolute;
+    top: 310px;
+    left: -230px;
+    color: #C9C9C9;
+    height: 20px;
+    width: 20px;
+}
     
   
   }
