@@ -1630,6 +1630,20 @@ ul.nav-2 li{
     background: #A6D141;
 
 }
+.loginPart  .select-style {
+    border: 0px;
+    width: 80%;
+    height: 50px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #F5F8F9 url("../img/arrow.PNG") no-repeat 5% 60%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+
+
+}
 /*/* content page*//**/
 .ContenttCources .content-seq{
     
