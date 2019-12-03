@@ -390,34 +390,23 @@
   overflow: hidden;
   
 }
-.profileSection .profileDesc {
-  padding-right: 0px }
-
-  .profileSection .row .col-lg-4{
-    border-left: 0px;
-    padding-left:0px;
-
-}
-.profileSection .row .col-lg-4 img{
-  width:160px;
-  height: 160px;
+.profilesection .user-profile .row .img-profile img {
+  border: 5px solid #A6D141;
   border-radius: 50%;
-  border:5px solid  #A6D141;
-  text-align: center;
-  margin-left:65px;
-  
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: 0 auto;
 }
-.profileSection .profileDesc {
-  padding-right: 30px;
-  text-align: center;
+.profilesection .user-desc {
+  border-right: 1px solid #E1E5E9;
+  display: flex;
+  margin: 0 auto;
 }
-.profileSection .profileDesc  a{
-  color:#E9E9F0;
-  margin-left:25px;
-  
-}
-.profileSection .profileEdit{
-  text-align: center;
+.profilesection .user-profile h2 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
 }
 .courseSection .titleCource {
   width:75%;
