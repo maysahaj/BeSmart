@@ -722,7 +722,7 @@ border-radius: 15px;
    }
    .ContenttCources .row .col-lg-4{
        padding-right:0px;
-       padding-left:0px;
+       padding-left:15px;
 
    }
    
@@ -1190,7 +1190,7 @@ border-radius: 15px;
     position: relative;
 
     
-}z
+}
 
 .select-style select:focus {
     outline: none;
@@ -1311,7 +1311,7 @@ border:1px solid #A6D141;
     outline: 0px;
     border:1px solid #A6D141;
 }
-.fa-globe{
+.add1 .fa-globe{
     color:#B0C1D1;
     position: absolute;
     top:50px;
@@ -1319,8 +1319,7 @@ border:1px solid #A6D141;
     font-size: 20px;;
 
 }
-
-.fa-trello{
+.add1   .fa-trello{
     color:#B0C1D1;
     position: absolute;
     top:50px;
@@ -1328,7 +1327,7 @@ border:1px solid #A6D141;
     font-size: 20px;;
 
 }
-.fa-briefcase{
+.add1  .fa-briefcase{
     color:#B0C1D1;
     position: absolute;
     top:50px;
@@ -1336,7 +1335,7 @@ border:1px solid #A6D141;
     font-size: 20px;;
 
 }
-.fa-book-open{
+.add1 .fa-book-open{
      color:#B0C1D1;
     position: absolute;
     top:50px;
