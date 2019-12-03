@@ -720,6 +720,12 @@ border-radius: 15px;
    
    
    }
+   .ContenttCources .row .col-lg-4{
+       padding-right:0px;
+       padding-left:0px;
+
+   }
+   
    .profilesection .user-desc{
        border-right:1px solid #E1E5E9;
    }
