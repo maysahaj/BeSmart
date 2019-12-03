@@ -585,6 +585,17 @@ outline: 0px;
   font-weight: bold;
 
 }
+.profileCource span mark {
+  position: absolute;
+  background: #FF6565;
+  left: 40px;
+  top: -270px;
+  border-radius: 20px;
+  padding: 0px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
 .profileCource  .btn-light{
   position: absolute;
   background: #FF6565;
@@ -796,6 +807,21 @@ outline: 0px;
     font-size: 15px;
     color: #B0C1D1;
   }
+  .profileCource span mark {
+    position: absolute;
+    background: #FF6565;
+    left: 40px;
+    top: -200px;
+    border-radius: 20px;
+    padding: 0px 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .profileCource img {
+    height: 250px;
+    width: 100%;
+}
  
 
 
