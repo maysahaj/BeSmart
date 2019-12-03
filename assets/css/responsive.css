@@ -148,6 +148,15 @@
   width: 100px;
   text-align: center;
 }
+.CurrentCourcesSection .row .btn-light {
+  background: #FFF;
+  color: #000;
+  border: 2px solid #000;
+  font-size: 16px;
+  line-height: 15px;
+  border-radius: 10px;
+  width:100px;
+}
     
   
   }
@@ -453,6 +462,15 @@
   font-size: 20px;
   font-weight: bold;
 
+}
+.CurrentCourcesSection .row .btn-light {
+  background: #FFF;
+  color: #000;
+  border: 2px solid #000;
+  font-size: 16px;
+  line-height: 15px;
+  border-radius: 10px;
+  width:100px;
 }
 .profilesection .user-profile .row .img-profile img {
   border: 5px solid #A6D141;
