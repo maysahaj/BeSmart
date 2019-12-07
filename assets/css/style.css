@@ -1727,4 +1727,15 @@ ul.nav-2 li{
     border-right: 5px solid  #D14150;
 
 }
+.new .blog-img span mark {
+    position: absolute;
+    background: #FF6565;
+    left: 30px;
+    top: 30px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
 
