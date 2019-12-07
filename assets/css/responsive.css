@@ -801,6 +801,14 @@ outline: 0px;
   outline: 0px;
   border-radius: 10px;
 }
+.btnew .Blog-Descriotion .nav a.editCource {
+  color: #000;
+  font-size: 11px;
+  line-height: 4px;
+  padding-right: 15px;
+  height: 25px;
+  width: 100px;
+}
 
 }
 @media (width: 768px) {
